@@ -17,3 +17,7 @@ Instalar pre-commit
 - pip3 install pre-commit
 - criar o arquivo .pre-commit-config.yaml
 - pre-commit install
+
+Para criar o arquivo que lista os pacotes
+
+- .\.venv\Scripts\pip3 freeze > requirements.txt

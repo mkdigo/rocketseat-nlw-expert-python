@@ -1,5 +1,19 @@
 Para instalar virtualenv 20.25.0
-  py -m venv .venv
+
+- py -m venv .venv
 
 Para ativar o ambiente virtual
-  .\.venv\Scripts\activate
+
+- .\.venv\Scripts\activate
+
+Instalar pylint
+
+- pip3 install pylint
+- pylint --generate-rcfile > .pylintrc
+
+Instalar pre-commit
+
+- site: https://pre-commit.com/
+- pip3 install pre-commit
+- criar o arquivo .pre-commit-config.yaml
+- pre-commit install

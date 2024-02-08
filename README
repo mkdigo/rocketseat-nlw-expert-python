@@ -21,3 +21,7 @@ Instalar pre-commit
 Para criar o arquivo que lista os pacotes
 
 - .\.venv\Scripts\pip3 freeze > requirements.txt
+
+Para rodar os testes
+
+- pytest -s -v
